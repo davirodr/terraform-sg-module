@@ -10,9 +10,3 @@ variable "name" {
   default     = "SG-padrao"
   description = "(optional) describe your variable"
 }
-
-variable "enable_sg" {
-  type        = bool
-  default     = false
-  description = "(optional) describe your variable"
-}
